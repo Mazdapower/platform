@@ -1,7 +1,7 @@
 ---
 assets:
   enabled: true
-  repository: https://github.com/DigitalState/Assets.git
+  repository: https://github.com/Mazdapower/Assets.git
   version: 0.17.3
   api:
     host: api.assets.prod.ds

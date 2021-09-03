@@ -1,7 +1,7 @@
 ---
 services:
   enabled: true
-  repository: https://github.com/DigitalState/Services.git
+  repository: https://github.com/Mazdapower/Services.git
   version: 0.17.3
   api:
     host: api.services.prod.ds
