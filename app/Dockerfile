@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM alpine:3.14
 
 # SUDO
 RUN apk --update add sudo
@@ -24,8 +24,7 @@ RUN apk --update add php7 php7-fpm && \
     apk --update add php7-opcache php7-dom php7-curl php7-json php7-phar php7-openssl php7-mbstring php7-ctype php7-session php7-xml php7-xmlwriter php7-tokenizer curl
 
 # Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --filename=composer  --install-dir=/usr/bin --version=1.0.0 && \
-    composer global require "hirak/prestissimo:^0.3"
+RUN curl -sS https://getcomposer.org/installer | php -- --filename=composer  --install-dir=/usr/bin --version=2.1.6
 
 # ROOT password
 RUN echo "root:root" | chpasswd
