@@ -1,7 +1,7 @@
 ---
 - block:
     - name: Stop cases container
-      docker_service:
+      docker_compose:
         project_src: /srv/cases
         files: '{{ _files|list }}'
         state: present

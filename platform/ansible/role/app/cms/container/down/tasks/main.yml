@@ -1,7 +1,7 @@
 ---
 - block:
     - name: Down cms container
-      docker_service:
+      docker_compose:
         project_src: /srv/cms
         files: '{{ _files|list }}'
         state: absent

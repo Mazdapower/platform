@@ -1,7 +1,7 @@
 ---
 - block:
     - name: Stop proxy container
-      docker_service:
+      docker_compose:
         project_src: /srv/proxy
         files: '{{ _files|list }}'
         state: present

@@ -1,7 +1,7 @@
 ---
 - block:
     - name: Up discovery container
-      docker_service:
+      docker_compose:
         project_src: /srv/discovery
         files: '{{ _files|list }}'
         state: present

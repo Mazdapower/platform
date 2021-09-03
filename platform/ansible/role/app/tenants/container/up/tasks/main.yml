@@ -1,7 +1,7 @@
 ---
 - block:
     - name: Up tenants container
-      docker_service:
+      docker_compose:
         project_src: /srv/tenants
         files: '{{ _files|list }}'
         state: present

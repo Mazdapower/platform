@@ -11,7 +11,7 @@
         regexp: api\.formio\.ds
         replace: '{{ _api_host }}'
     - name: Up formio container
-      docker_service:
+      docker_compose:
         project_src: /srv/formio
         files: '{{ _files|list }}'
         state: present

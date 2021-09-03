@@ -1,7 +1,7 @@
 ---
 - block:
     - name: Up forms container
-      docker_service:
+      docker_compose:
         project_src: /srv/forms
         files: '{{ _files|list }}'
         state: present

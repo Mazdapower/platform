@@ -1,7 +1,7 @@
 ---
 - block:
     - name: Down tasks container
-      docker_service:
+      docker_compose:
         project_src: /srv/tasks
         files: '{{ _files|list }}'
         state: absent

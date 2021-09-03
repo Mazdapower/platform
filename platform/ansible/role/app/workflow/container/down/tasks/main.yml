@@ -1,7 +1,7 @@
 ---
 - block:
     - name: Down workflow container
-      docker_service:
+      docker_compose:
         project_src: /srv/workflow
         files: '{{ _files|list }}'
         state: absent

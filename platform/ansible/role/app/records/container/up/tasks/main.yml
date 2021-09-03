@@ -1,7 +1,7 @@
 ---
 - block:
     - name: Up records container
-      docker_service:
+      docker_compose:
         project_src: /srv/records
         files: '{{ _files|list }}'
         state: present
