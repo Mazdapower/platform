@@ -2,7 +2,7 @@
 formio:
   enabled: true
   order: -10
-  repository: https://github.com/DigitalState/Formio.git
+  repository: https://github.com/MazdaPower/Formio.git
   version: 0.17.0
   api:
     host: api.formio.prod.ds

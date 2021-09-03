@@ -41,9 +41,9 @@ If you are on _Mac_, **DockerForMac** is required.
 
 ## Documentation
 
-- [Platform Documentation](https://github.com/DigitalState/Platform/blob/develop/platform/documentation/index.md)
-- [Application Documentation](https://github.com/DigitalState/Documentation)
-- [User Guide](https://github.com/DigitalState/Guide)
+- [Platform Documentation](https://github.com/MazdaPower/Platform/blob/develop/platform/documentation/index.md)
+- [Application Documentation](https://github.com/MazdaPower/Documentation)
+- [User Guide](https://github.com/MazdaPower/Guide)
 
 ## Contributing
 

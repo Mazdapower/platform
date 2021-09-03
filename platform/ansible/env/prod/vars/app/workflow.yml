@@ -2,7 +2,7 @@
 workflow:
   enabled: true
   order: -10
-  repository: https://github.com/DigitalState/Workflow.git
+  repository: https://github.com/MazdaPower/Workflow.git
   version: 0.17.0
   api:
     host: api.workflow.prod.ds

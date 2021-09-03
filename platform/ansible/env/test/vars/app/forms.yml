@@ -1,7 +1,7 @@
 ---
 forms:
   enabled: true
-  repository: https://github.com/DigitalState/Forms.git
+  repository: https://github.com/MazdaPower/Forms.git
   version: develop
   api:
     host: api.forms.test.ds

@@ -1,5 +1,5 @@
 ---
 core:
   enabled: true
-  repository: https://github.com/DigitalState/Core.git
+  repository: https://github.com/MazdaPower/Core.git
   version: develop

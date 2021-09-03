@@ -1,5 +1,5 @@
 ---
 guide:
   enabled: true
-  repository: https://github.com/DigitalState/Guide.git
+  repository: https://github.com/MazdaPower/Guide.git
   version: develop

@@ -1,7 +1,7 @@
 ---
 tenants:
   enabled: false
-  repository: https://github.com/DigitalState/Tenants.git
+  repository: https://github.com/MazdaPower/Tenants.git
   version: develop
   api:
     host: api.tenants.test.ds

@@ -1,7 +1,7 @@
 ---
 tasks:
   enabled: false
-  repository: https://github.com/DigitalState/Tasks.git
+  repository: https://github.com/MazdaPower/Tasks.git
   version: 0.17.4
   api:
     host: api.tasks.prod.ds

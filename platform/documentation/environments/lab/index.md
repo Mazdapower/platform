@@ -38,7 +38,7 @@ Open a console and download the repository:
 
 ```
 > cd C:\Users\Demo
-> git clone https://github.com/DigitalState/Platform.git
+> git clone https://github.com/MazdaPower/Platform.git
 > cd Platform
 ```
 

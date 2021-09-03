@@ -1,7 +1,7 @@
 ---
 identities:
   enabled: true
-  repository: https://github.com/DigitalState/Identities.git
+  repository: https://github.com/MazdaPower/Identities.git
   version: 0.17.4
   api:
     host: api.identities.prod.ds

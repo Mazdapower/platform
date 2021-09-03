@@ -1,7 +1,7 @@
 ---
 authentication:
   enabled: true
-  repository: https://github.com/DigitalState/Authentication.git
+  repository: https://github.com/MazdaPower/Authentication.git
   version: develop
   api:
     host: api.authentication.dev.ds
