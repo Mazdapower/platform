@@ -7,7 +7,7 @@ RUN apk --update add sudo
 RUN apk --update add sshpass openssh-client rsync cargo
 
 # Python
-RUN apk --update add python3 py-pip openssl ca-certificates && \
+RUN apk --update add python3 py3-pip openssl ca-certificates && \
     apk --update add --virtual build-dependencies python3-dev libffi-dev openssl-dev build-base && \
     pip install --upgrade pip cffi
 
