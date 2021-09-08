@@ -14,7 +14,7 @@
 - name: Install python pip
   apk:
     update_cache: yes
-    name: py-pip
+    name: py3-pip
     state: present
 
 - name: Install docker compose
